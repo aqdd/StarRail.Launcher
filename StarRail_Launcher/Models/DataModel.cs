@@ -370,7 +370,7 @@ namespace StarRail_Launcher.Core
         public void SaveDataToFile()
         {
             parser.SaveSettings();
-            // gameparser.SaveSettings();
+            gameparser.SaveSettings();
         }
     }
 

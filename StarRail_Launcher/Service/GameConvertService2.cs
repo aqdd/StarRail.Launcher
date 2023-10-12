@@ -412,7 +412,7 @@ namespace StarRail_Launcher.Service
                     case 2:
                         App.Current.DataModel.Cps = "hoyoverse_PC";
                         App.Current.DataModel.Channel = 1;
-                        App.Current.DataModel.Sub_channel = 0;
+                        App.Current.DataModel.Sub_channel = 1;
                         if (File.Exists(Path.Combine(GamePath, $"GenshinImpact_Data/{bilibilisdk}")))
                             File.Delete(Path.Combine(GamePath, $"GenshinImpact_Data/{bilibilisdk}"));
                         App.Current.NoticeOverAllBase.SwitchPort =
